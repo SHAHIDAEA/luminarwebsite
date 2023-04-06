@@ -1,0 +1,173 @@
+.navbar{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.modal-content{
+     width: 600px; 
+}
+.cour1:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* .course{
+    width: 550px;
+} */
+.car1{
+    margin-bottom: 100px;
+}
+.car2{
+    margin-bottom: 100px;
+}
+.clrbtn1{
+    background-color: blueviolet;color: white; border-radius: 50px;width: 180px;height: 60px;
+}
+.clrbtn2{
+    background-color: blueviolet;
+    color: white; 
+    border-radius: 50px;
+    width: 180px;
+    height: 60px;
+}
+.clrbtn1:hover{
+    background-color:white ;
+    color: #5e068a;
+
+}
+.clrbtn2:hover{
+    background-color:white ;
+    color: #5e068a;
+}
+.btnlst{
+    border: #5e068a 1px solid;
+    color:#5e068a ;
+    border-radius: 50px;
+    height: 60px; 
+    width: 180px;
+}
+.btnlst:hover {
+   
+    background-color: #5e068a ;
+    color: white;
+}
+.python:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.test:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mearn:hover{
+    transform: scaleY(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#demo1{
+font-size: 55px; 
+}
+.demo2{
+    font-size: 55px;
+}
+
+@media(max-width:1200px){
+#demo1{
+    
+
+        font-size: 45px;
+
+    }
+    .demo2{
+        font-size: 45px;
+
+    }
+
+}
+@media(max-width:900px)
+{
+    #demo1{
+        font-size: 30px;
+    }
+    .demo2{
+        font-size: 30px;
+
+    }
+.clrbtn1{
+    width: 120px;
+    height: 40px;
+    font-size: small;
+}
+.clrbtn2{
+    width: 120px;
+    height: 40px;
+    font-size: small;
+}
+}
+@media(max-width:750px)
+{
+    .btnlst{
+        width:130px;
+        height: 50px;
+    }
+    .modal-content{
+     width: 450px;  
+}
+    .modal{
+        width: 500px;
+    }
+    
+}
+
+@media(max-width:600px){
+    #demo1{
+        font-size: 25px;
+    }
+    .demo2{
+        font-size: 25px;
+
+    }
+    .demo1p{
+        font-size: 15px;
+    }
+    .demo2p{
+        font-size: 15px;
+
+    }
+    
+    .clrbtn1{
+        width: 120px;
+        height: 40px;
+        font-size: small;
+    }
+    .clrbtn2{
+        width: 120px;
+        height: 40px;
+        font-size: small;
+    }
+    
+}
+@media(max-width:500px){
+    .modal-content{
+     width: 350px; 
+}
+    .modal{
+        width: 400px;
+    }
+}
+@media(max-width:300px)
+{
+    .car1{
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
